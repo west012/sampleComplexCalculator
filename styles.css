@@ -1,9 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
-    color: rgb(116, 84, 143);
+    background-color: rgb(116, 84, 143);
+    background-image: url(https://ximera.osu.edu/mooculus/calculus3/vectorFields/egField.png);
+    background-image: norepeat;
+    justify-content: start;
 }
 .onediv{
     color:goldenrod;
     background-color:black;
+    background-image: linear-gradient();
     border-radius: 10px;
     height: 900px;
     width: 450px;
@@ -11,16 +19,18 @@ body{
     /* padding: 10px; */
     flex-direction: column;
     display: flex;
-    /* margin: 0 auto; */
+    margin: auto;
     
 }
 .caseButton{
     background-color: rgb(0, 255, 242);
     color: midnightblue;
-    width: 90px;
+    width: 15%;
     height:90px;
+    display: flex;
     border-radius: 8px;
     justify-content: center;
+    align-items: center;
     /* margin: 0 auto; */
     font-size: 30px;
 
@@ -28,16 +38,26 @@ body{
     justify-content:center; */
     /* flex-wrap: wrap; */
 }
+.buttonDouble{
+    width: 30%;
+}
 .caseButtonContainer{
     width:360px;
     height: 900px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
     
 }
 .screen{
     width: 375px;
     height: 90px;
     margin:0 auto;
+    background-color: moccasin;
+    color: black;
+    font-weight: 400;
+    display: flexbox;
+    justify-content: right;
 }
