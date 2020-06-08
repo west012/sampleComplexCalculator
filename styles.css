@@ -1,3 +1,43 @@
 body{
-    color:azure;
+    color: rgb(116, 84, 143);
+}
+.onediv{
+    color:goldenrod;
+    background-color:black;
+    border-radius: 10px;
+    height: 900px;
+    width: 450px;
+    border: 7px solid rgb(136, 84, 71);
+    /* padding: 10px; */
+    flex-direction: column;
+    display: flex;
+    /* margin: 0 auto; */
+    
+}
+.caseButton{
+    background-color: rgb(0, 255, 242);
+    color: midnightblue;
+    width: 90px;
+    height:90px;
+    border-radius: 8px;
+    justify-content: center;
+    /* margin: 0 auto; */
+    font-size: 30px;
+
+    /* Display: flex;
+    justify-content:center; */
+    /* flex-wrap: wrap; */
+}
+.caseButtonContainer{
+    width:360px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.screen{
+    width: 375px;
+    height: 90px;
+    margin:0 auto;
 }
