@@ -38,26 +38,32 @@ body{
     justify-content:center; */
     /* flex-wrap: wrap; */
 }
+.caseButton:hover{
+    background-color: chocolate;
+    border: gold;
+}
 .buttonDouble{
     width: 30%;
 }
 .caseButtonContainer{
     width:360px;
-    height: 900px;
+    height: 150px;
     display: flex;
-    flex-wrap: wrap;
-    margin: 50px auto;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    margin:7px auto;
     justify-content: center;
-    align-items: center;
-    
+    /* align-items: center; */
 }
 .screen{
     width: 375px;
-    height: 90px;
+    height: 100px;
     margin:0 auto;
     background-color: moccasin;
     color: black;
     font-weight: 400;
-    display: flexbox;
-    justify-content: right;
+    display: flex;
+    justify-content: left;
+    /* justify-items: flex-end; */
+    align-items: center;
 }
